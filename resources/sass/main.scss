@@ -1,0 +1,26 @@
+// Utility
+@import 'utils/color';
+@import 'utils/global';
+@import 'utils/typography';
+
+// Overriding BS
+@import 'bootstrap/override';
+
+// Components
+@import 'components/navbar';
+@import 'components/navbar2';
+@import 'components/hero';
+@import 'components/intro';
+@import 'components/slider';
+@import 'components/game';
+@import 'components/payments';
+@import 'components/embeded';
+@import 'components/footer';
+@import 'admin/index';
+
+// Single Product
+@import 'single/gameDetail';
+@import 'single/productPrices';
+
+// Atoms
+@import 'atoms/card';

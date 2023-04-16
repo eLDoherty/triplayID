@@ -1,0 +1,18 @@
+.triplay-payments {
+    margin: 60px 0;
+    &__heading {
+        text-align: center;
+        h2 {
+            font-size: 38px;
+            font-weight: 700;
+        }
+    }
+    &__slider-right, &__slider-left {
+
+        img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+    }
+}

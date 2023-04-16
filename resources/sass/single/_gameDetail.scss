@@ -1,0 +1,19 @@
+.triplay-game-detail {
+    margin: 60px 0;
+    &__banner {
+
+        img {
+            width: 100%;
+        }
+    }
+
+    &__description {
+        margin: 20px 0;
+        padding: 0 20px;
+        .product-title {
+            font-size: 38px;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+    }
+}

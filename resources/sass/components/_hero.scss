@@ -1,0 +1,62 @@
+.triplay-hero {
+    min-height: 500px;
+    background-image: url('../../../public/storage/assets/images/man.png'), url('../../../public/storage/assets/images/eclipse.png');
+    background-size: 220px, 40%;
+    background-repeat: no-repeat;
+    background-position: 80% 100%, right;
+    margin-top: -110px;
+    .relative-holder{
+        position: relative;
+        height: 500px;
+    }
+    &__detail {
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translate(0%, -50%);
+        h2 {
+            font-size: 45px;
+            font-weight: 700;
+            line-height: 1.1;
+        }
+        &--caption {
+            font-size: 18px;
+            color: $primaryBlack;
+            opacity: 0.8;
+            white-space: pre-line;
+            margin-top: -20px;
+        }
+        &--button {
+            display: flex;
+            margin-top: 30px;
+            .start-button {
+                margin-right: 30px;
+                background-color: $darkBlue;
+                color: white;
+                padding: 10px;
+                width: 170px;
+                border-radius: 10px;
+                height: 45px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-decoration: none;
+                font-weight: 600;
+            }
+            .promo-button {
+                border: 2px solid $primaryBlue;
+                padding: 10px;
+                width: 170px;
+                border-radius: 10px;
+                color: $primaryBlue;
+                height: 45px;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                text-decoration: none;
+                font-weight: 600;
+            }
+            
+        }
+    }
+}
